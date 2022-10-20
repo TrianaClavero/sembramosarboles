@@ -5,57 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sembramos Árboles</title>
-    <link rel="shortcut icon" href="./imagenes/icono de la organización.png" type="image/x-icon" >
+    <link rel="icon" href="./imagenes/home Icon.ico">
     <link rel="stylesheet" href="./css/estilos.css">
-    
+
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header>
+    <header >   
+        <a href="index.html" class="logo">
+            <img src="./imagenes/icono de la organización.png" alt="Sembramos Árboles">
+            <h2 class="sembramosArboles">Sembramos </br> Árboles</h2>  
+        </a>
         <nav>
-            <a href="index.html">
-                 <img src="./imagenes/icono nav.png" width="200" alt="Sembramos Árboles">
-            </a>
-            <a href="index.html">HOME</a>
-            <a href="nosotros.html">NOSOTROS</a>
-            <a href="proyectos.html">PROYECTOS</a>
-            <a href="contacto.html">CONTACTO</a>
-            <a href="dona.html">DONÁ</a>
+            <a href="index.html" class="nav-link">HOME</a>
+            <a href="nosotros.html" class="nav-link">NOSOTROS</a>
+            <a href="proyectos.html" class="nav-link">PROYECTOS</a>
+            <a href="contacto.html" class="nav-link">CONTACTO</a>
+            <a href="dona.html" class="nav-link">DONÁ</a>
         </nav>
-    </header>
+      
+     </header>
+ 
+ <main>
+    <h2>Contactanos</h2>  
+     <p>Gracias por tu interes en Sembramos Arboles. Te pedimos que por favor completes el formulario y haremos todo lo posible para responderte dentro de las 24 horas.</p>
 
-    <main>
-        <h2>Contactanos</h2>
-        <p>Gracias por tu interes en Sembramos Arboles. Te pedimos que por favor completes el formulario y haremos todo lo posible para responderte dentro de las 24 horas.</p>
+     <span>
+       <form action="show_data.html">
+         <label for="nombre">Nombre</label>
+         <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+         
+         <label for="apellido">Apellido</label>
+         <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
+         <br> <br>
+         <label for="mail">Email</label>
+         <input type="email" name="mail" id="mail" placeholder="Escriba su correo electrónico">
+         <br> <br>
+         <label for="mensaje">Mensaje</label>
+         <br>
+         <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="¿Cómo podemos ayudarte?"></textarea>
+         <br>
+         <input type="submit" value="Enviar">
+     </form>  
+ </span>
 
-        <span>
-          <form action="show_data.html">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
-            
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
-            <br> <br>
-            <label for="mail">Email</label>
-            <input type="email" name="mail" id="mail" placeholder="Escriba su correo electrónico">
-            <br> <br>
-            <label for="mensaje">Mensaje</label>
-            <br>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="¿Cómo podemos ayudarte?"></textarea>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>  
-    </span>
+ </main>
+ <footer></footer>
 
 
-        
-    </main>
 
-    <footer></footer>
     
 </body>
 </html>
