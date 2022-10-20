@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sembramos Árboles</title>
     <link rel="icon" href="./imagenes/home Icon.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
     <header >   
@@ -20,10 +26,33 @@
             <a href="contacto.html" class="nav-link">CONTACTO</a>
             <a href="dona.html" class="nav-link">DONÁ</a>
         </nav>
-     <h2>Contactanos</h2>  
+      
      </header>
  
- <main></main>
+ <main>
+    <h2>Contactanos</h2>  
+     <p>Gracias por tu interes en Sembramos Arboles. Te pedimos que por favor completes el formulario y haremos todo lo posible para responderte dentro de las 24 horas.</p>
+
+     <span>
+       <form action="show_data.html">
+         <label for="nombre">Nombre</label>
+         <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+         
+         <label for="apellido">Apellido</label>
+         <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
+         <br> <br>
+         <label for="mail">Email</label>
+         <input type="email" name="mail" id="mail" placeholder="Escriba su correo electrónico">
+         <br> <br>
+         <label for="mensaje">Mensaje</label>
+         <br>
+         <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="¿Cómo podemos ayudarte?"></textarea>
+         <br>
+         <input type="submit" value="Enviar">
+     </form>  
+ </span>
+
+ </main>
  <footer></footer>
 
 
