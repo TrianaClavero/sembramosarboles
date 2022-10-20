@@ -2,3 +2,144 @@ span{
     background-color: white;
     border-color: gray;
 }
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 90px 0px 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+header{
+    
+    display: flex;
+    min-height: 60px;
+    background-color: #00111a;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+
+}
+
+.logoHome{
+    display: flex;
+    align-items: center;
+
+}
+.logoHome img {
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 15px;
+    
+}
+
+.nav-linkHome a {
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #009999;
+}
+
+.sembramosArboles {
+    font-family: 'Caveat', cursive;
+    padding: 0px 5px;
+   
+    
+    
+} 
+
+@media (max-width:690px){
+    header{ flex-direction:column;}
+    nav {
+        padding: 10px 0px;   
+    }
+    
+    
+}
+
+#portada h1{
+    font-family: 'Caveat', cursive ;
+}
+
+
+
+
+footer{
+
+    background-image: url("/imagenes/footer\ image.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    
+    
+ }
+ .nav-menu{
+    width: auto;
+   display:flex;
+    margin: auto;
+    list-style: none;
+    height: 80px;
+    margin-right: 380px;
+      
+ }
+ .nav-menu-item{
+    display: flex;
+    line-height: 450px; 
+    padding: 30px 10px;
+    height: 80px;
+    
+    
+ 
+ }
+ .logo{
+    line-height: 450px;
+    margin-left: 15px;
+    padding:30px 0px ;
+ }
+ .parrafo{
+    padding: 0px 10px 0px 010px;
+    line-height: 20px;
+    position: relative;
+    left: 70px;
+    top: 125px;
+    color:white;
+    margin-right:850px;
+    translate: -200px,10px,-20px,50px;
+ 
+ }
+ .derechos{
+    color:white;   
+    text-align: center ; 
+    line-height: 150px; 
+    height: 0px;
+    margin: 100px;
+ }
+ .derechos1{
+    color:white;   
+    text-align: center ; 
+    line-height: 10px; 
+    height: 0px;
+    margin: 100px;
+ }
+
+
