@@ -41,7 +41,7 @@ header{
 }
 
 .nav-linkHome a {
-
+    
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -75,13 +75,13 @@ nav a:hover{
 
 
 footer{
-
+    
     background-image: url("/imagenes/footer\ image.jpg");
+    
     background-size: cover;
     height: 450px;
     width: 100%;
-    
-    
+    margin: 0;
 }
 
 .nav{
@@ -150,6 +150,11 @@ footer{
     height: 0px;
     margin: 100px;
  }
+ 
+ span{
+    background-color: white;
+    border-color: gray;
+}
 
  .div-img{
     height: 300px;

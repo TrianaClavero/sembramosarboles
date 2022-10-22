@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sembramos Árboles</title>
+    <link rel="icon" href="./imagenes/home Icon.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logoHome">
+            <img src="./imagenes/icono de la organización.png" alt="Sembramos Árboles">
+            <h2 class="sembramosArboles">Sembramos </br> Árboles</h2>  
+        </a>
+        <nav class="nav-linkHome" >
+            <a href="index.html" class="nav-linkHome">HOME</a>
+            <a href="nosotros.html" class="nav-linkHome">NOSOTROS</a>
+            <a href="proyectos.html" class="nav-linkHome">PROYECTOS</a>
+            <a href="contacto.html" class="nav-linkHome">CONTACTO</a>
+            <a href="dona.html" class="nav-linkHome">DONÁ</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Detalle</h2>
+        <form action="agradecimiento.html">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+            <br> <br>
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail" placeholder="Escriba su correo electrónico">
+            <br> <br>
+            <label for="telefono">Teléfono</label>
+            <input type="number" name="telefono" id="mail" placeholder="Escriba su teléfono">
+            <br>
+            <label for="mensaje">Mensaje</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="El mensaje no puede superar los 500 caracteres"></textarea>
+            <br>
+            <input type="checkbox" name="donar">Donar mensualmente
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
