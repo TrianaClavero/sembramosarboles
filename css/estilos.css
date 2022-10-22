@@ -123,8 +123,19 @@ footer{
     color:white;
     margin-right:850px;
     translate: -200px,10px,-20px,50px;
- 
  }
+
+.texto{
+    padding: 0px 10px 0px 010px;
+    line-height: 20px;
+    
+    left: 70px;
+    top: 125px;
+    color:black;
+    
+    translate: -200px,10px,-20px,50px;
+}
+ 
  .derechos{
     color:white;   
     text-align: center ; 
@@ -144,5 +155,44 @@ footer{
     background-color: white;
     border-color: gray;
 }
+
+ .div-img{
+    height: 300px;
+    
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+ }
+
+ .navProyecto{
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*****  
+    border-style: solid;
+     border-radius: 20px;
+    border-color: rgb(172, 165, 165); 
+    *****/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .divProyecto{
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+
+
 
 
