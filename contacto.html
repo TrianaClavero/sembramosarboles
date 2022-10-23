@@ -35,28 +35,36 @@
 
      <span>
        <form action="show_data.html">
-         <label for="nombre">Nombre</label>
+        <div>
+            <label for="nombre">Nombre</label>
          <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+        </div>
          
-         <label for="apellido">Apellido</label>
+        <div>
+            <label for="apellido">Apellido</label>
          <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
-         <br> <br>
-         <label for="mail">Email</label>
+        </div>
+         
+         <div>
+            <label for="mail">Email</label>
          <input type="email" name="mail" id="mail" placeholder="Escriba su correo electrónico">
-         <br> <br>
+         </div>
+         
          <label for="mensaje">Mensaje</label>
          <br>
          <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="¿Cómo podemos ayudarte?"></textarea>
          <br>
-         <input type="submit" value="Enviar">
+         <input type="submit" onclick="return enviarFormulario()" value="Enviar">
      </form>  
  </span>
+
+ <div id="error" ></div>
 
  </main>
  <footer></footer>
 
 
 
-    
+    <script src="./js/main.js"></script>
 </body>
 </html>

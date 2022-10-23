@@ -206,7 +206,12 @@ footer{
     padding: 10px;
 }
 
-
+label{
+    display: block;
+    float: left;
+    width: 70px;
+    
+}
 
 
 
